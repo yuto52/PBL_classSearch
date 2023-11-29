@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="ja">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>検索ページ</title>
 </head>
+
 <body>
+
+    <form action="/search" method="get">
+        <label for="input1">知りたい棟を入力してください</label>
+        <select id="ridge" name="ridge">
+            <option value="option1">N棟</option>
+            <option value="option2">S棟</option>
+            <option value="option3">E棟</option>
+        </select>
+
+        <br>
+
+        <label for="input2">知りたい時間を入力してください</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">1限</option>
+            <option value="option2">2限</option>
+            <option value="option3">3限</option>
+            <option value="option4">4限</option>
+            <option value="option5">5限</option>
+            <option value="option6">6限</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="検索">
+    </form>
+    <!-- <input type="text" id="input2" name="input2"> -->
+
+
     <!-- header ここから -->
     <header class="header">
 
@@ -22,4 +54,5 @@
     </footer>
     <!-- footer ここまで -->
 </body>
+
 </html>
