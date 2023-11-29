@@ -11,6 +11,29 @@ html{
     scroll-behavior: smooth;
 }
 
+.mainTitle{
+    position: top left;
+    width: 50%;
+    height: 100px;
+    background-color: #B94047;
+    top: 0px;
+    left: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: none;
+    margin-left: 0px;
+    margin-top: 0%;
+}
+
+.mainTitle h1 a{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 72px;
+}
+
 #pageTop{
     width: 100px;
     height: 100px;
