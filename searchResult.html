@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>検索結果ページ</title>
 </head>
+
 <body>
-    <!-- header ここから -->
-    <header class="header">
 
-    </header>
-    <!-- header ここまで -->
+    <h1>該当する教室が見つかりました</h1>
 
-    <!-- main ここから -->
-    <main class="main">
+    <p>検索クエリ: <strong id="searchQuery"></strong></p>
 
-    </main>
-    <!-- main ここまで -->
+    <ul id="searchResults">
+        <!-- 検索結果はjavascriptのコードによりここに表示される -->
+    </ul>
 
-    <!-- footer ここから -->
-    <footer class="footer">
-        <!-- ここにフッターの内容を追加 -->
-    </footer>
-    <!-- footer ここまで -->
+    <script>
+        // URLから検索クエリを取得
+        var urlParams = new URLSearchParams(window.location.search);
+        var searchQuery = urlParams.get('q');
+
+        // 検索クエリを表示
+        document.getElementById('searchQuery').textContent = searchQuery;
+
+        // 検索結果を表示
+        var searchResults = [
+            "E102　混雑度:???%",
+            "E503　混雑度:???%",
+            "E701　混雑度:???%"
+        ];
+
+        var resultsList = document.getElementById('searchResults');
+        searchResults.forEach(function (result) {
+            var listItem = document.createElement('li');
+            listItem.textContent = result;
+            resultsList.appendChild(listItem);
+        });
+    </script>
+
 </body>
+
 </html>
