@@ -11,20 +11,37 @@ html{
     scroll-behavior: smooth;
 }
 
+.topContents{
+    display: flex;
+    position: top center;
+}
+
 .mainTitle{
-    position: top left;
     width: 50%;
     height: 100px;
     background-color: #B94047;
     top: 0px;
     left: 200px;
-    justify-content: center;
-    display: flex;
+    justify-content: center center;
     align-items: center;
     text-align: center;
-    margin-top: none;
-    margin-left: 0px;
-    margin-top: 0%;
+}
+
+.search{
+    margin: auto;
+}
+
+.searchButton{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: 30px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .mainTitle h1 a{
