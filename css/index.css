@@ -1,5 +1,80 @@
 @charset "UTF-8";
 
-body{
-    
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topContents{
+    display: flex;
+    position: top center;
+}
+
+.mainTitle{
+    width: 50%;
+    height: 100px;
+    background-color: #B94047;
+    top: 0px;
+    left: 200px;
+    justify-content: center center;
+    align-items: center;
+    text-align: center;
+}
+
+.search{
+    margin: auto;
+}
+
+.searchButton{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    height: 30px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainTitle h1 a{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 72px;
+}
+
+#pageTop{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #B94047;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+#pageTop::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
 }
