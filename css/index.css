@@ -91,13 +91,22 @@ header .headerInner {
 }
 
 @media (max-width: 800px) {
+
+    .headerLogo img{
+        width: 180px;
+    }
+
+    .searchButton img{
+        width: 120px;
+    }
+
     .siteMenu li {
-        padding-right: 0%;
-        padding-left: 0%;
+        padding-right: 3%;
+        padding-left: 3%;
         padding-bottom: 5%;
     }
 
     .siteMenu img{
-        width: 70%;
+        width: 110px;
     }
 }
