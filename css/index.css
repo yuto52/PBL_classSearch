@@ -89,3 +89,7 @@ header .headerInner {
     vertical-align: middle;
     font-size: 30%;
 }
+
+@media (max-width: 800px) {
+
+}
