@@ -44,24 +44,7 @@ body{
     color:#000000;
 }
 
-.mainTitleBox{
-    align-items: left;
-    width: 20%;
-    height: 60px;
-    margin: 5px;
-    border: solid 1px #999999;
-    background: #B94047;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
 
-.mainTitle{
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 10px;
-}
 
 .searchButton{
     align-items: right;
