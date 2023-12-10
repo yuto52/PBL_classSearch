@@ -31,18 +31,7 @@ html{
     margin: auto;
 }
 
-.searchButton{
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: auto;
-    height: 30px;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .mainTitle h1 a{
     font-family: sans-serif;
