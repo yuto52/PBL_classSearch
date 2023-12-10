@@ -91,5 +91,13 @@ header .headerInner {
 }
 
 @media (max-width: 800px) {
+    .siteMenu li {
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-bottom: 5%;
+    }
 
+    .siteMenu img{
+        width: 70%;
+    }
 }
